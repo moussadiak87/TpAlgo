@@ -1,0 +1,9 @@
+variable : nombre numerique
+début 
+Ecriture "Entrez un nombre entre 1 et 3"
+Lire nombre
+tant que nombre < 1 OU nombre >3 ALORS
+    Ecrire "saisie erronée, vueillez entrez un nombre entre 1 et 3 SVP"
+    Lire nombre
+finTantQue
+fin 

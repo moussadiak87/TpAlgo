@@ -1,0 +1,52 @@
+Variables: heure, minute en numerique
+Debut
+Ecrire "Entrez une heure valide"
+Lire heure
+Ecrire "Entrez une minute valide"
+Lire minute 
+Si minute égale à 59 alors 
+    heure = heure + 1 
+    minute = 0
+    Si heure = 23 ET minute = 59 alors 
+        heure = 0
+        minute = 0 
+Sinon 
+    minute = minute + 1
+FinSi
+Ecrire "Dans une minute il sera ", heure," h", minute," minutes"  
+Fin 
+
+Variables: heure, minute en numerique
+Debut
+Ecrire "Entrez une heure valide"
+Lire heure
+Ecrire "Entrez une minute valide"
+Lire minute 
+Si minute égale à 59 alors 
+    heure = heure + 1 
+    minute = 0
+    Si heure = 24 ET minute = 0 alors 
+        heure = 0
+        minute = 0 
+Sinon 
+    minute = minute + 1
+FinSi
+Ecrire "Dans une minute il sera ", heure," h", minute,"."
+Fin 
+
+Variables: heure, minute en numerique
+Debut
+Ecrire "Entrez une heure valide"
+Lire heure
+Ecrire "Entrez une minute valide"
+Lire minute 
+Si minute égale à 59 alors 
+    heure = heure + 1 
+    minute = 0
+    Si heure = 24 alors 
+        heure = 0
+Sinon 
+    minute = minute + 1
+FinSi
+Ecrire "Dans une minute il sera ", heure," h", minute,"."
+Fin 

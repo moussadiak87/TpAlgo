@@ -1,0 +1,41 @@
+nom : calcul_prix_ttc
+role : calcule le prix ttc d'un article en fonction de son prix ht et de la qté d'article, et du taux de tva
+entrées : tva
+sorties : aucune
+
+Variables nb, pht, tva, pttc en Numérique
+Début
+Ecrire "Entrez le prix hors taxes :"
+Lire pht
+Ecrire "Entrez le nombre d’articles :"
+Lire nb
+pttc ← nb * pht * (1 + tva)
+Ecrire "Le prix toutes taxes est : ", pttc
+Fin
+
+def calcul_prix_ttc(tva):
+    print  ("Entrez le prix hors taxes :")
+    pht = float(input())
+    print ("Entrez le nombre d’articles :")
+    nb = float(input())
+    pttc = nb * pht * (1 + tva)
+    print ("Le prix toutes taxes est : ", pttc)
+
+
+calcul_prix_ttc("tva")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

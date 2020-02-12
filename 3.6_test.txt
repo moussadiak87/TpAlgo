@@ -1,0 +1,18 @@
+variables : age (numérique)
+Debut
+    ecrire "Ecris ton âge :"
+    lire age
+    Si age >= à 6
+        Si age est inférieur ou égale à 7 alors
+            ecrire "Tu es dans la catégorie Poussin"
+        sinon Si age est inférieur ou égale à 9 alors
+            ecrire "Tu es dans la catégorie Pupille"
+        sinon Si age est inférieur ou égale à 11 alors
+            ecrire "Tu es dans la catégorie Minime"
+        sinon
+            ecrire "Tu es dans la catégorie Cadet"
+        finSi
+    sinon
+        ecrire "Tu dois avoir au moins 6 ans pour être dans une catégorie"
+    finSi
+Fin

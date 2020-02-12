@@ -1,0 +1,14 @@
+variables : nombre en numérique 
+Debut
+ecrire "Entrez un nombre" 
+lire nombre 
+Si nombre > 0 alors 
+    Ecrire "votre nombre ",nombre," est positif"
+Sinon 
+    Si nombre est égale à 0 alors
+        Ecrire "votre nombre ", nombre, " est nul." 
+    Sinon 
+        Ecrire "votre nombre ",nombre," est negatif"
+    FinSi
+FinSi 
+Fin 

@@ -1,0 +1,59 @@
+Proposition de Moussa :
+variable : nombre en numerique 
+debut 
+ecriture "saisissez un nombre "
+lire nombre
+TantQue nombre saisie +10
+    lire nombre 
+finTantQue
+Fin
+
+amelioration :
+variable : nombre, compteur  en numerique 
+debut 
+ecriture "saisissez un nombre "
+lire nombre
+plafond = nombre + 10
+TantQue plafond != nombre ALORS
+    nombre = nombre + 1 
+    ecrire nombre 
+finTantQue
+Fin
+
+amelioration : autre approche 
+variable : nombre, plafond en numerique 
+debut 
+ecriture "saisissez un nombre "
+lire nombre
+plafond = 0
+TantQue plafond < 10 ALORS
+    nombre = nombre + 1 
+    ecrire nombre 
+    plafond = plafond + 1 
+finTantQue
+Fin
+
+amelioration : nomage des variables
+variable : nombre, compteur  en numerique 
+debut 
+ecriture "saisissez un nombre "
+lire nombre
+compteur = 0
+TantQue compteur < 10 ALORS
+    nombre = nombre + 1 
+    ecrire nombre 
+    compteur  = compteur + 1 
+finTantQue
+Fin
+
+
+5.4 : 
+variable : nombre, compteur  en numerique 
+debut 
+ecriture "saisissez un nombre "
+lire nombre
+Pour compteur = 1 à 10 par pas de 1 ALORS 
+    Ecrire nombre + compteur
+    compteur suivant
+FinPour
+Fin  

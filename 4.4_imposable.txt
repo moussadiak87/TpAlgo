@@ -1,0 +1,16 @@
+variables : age numerique 
+            sexe string 
+Debut 
+Ecrire "Entrez votre sexe"
+Lire sexe
+Ecrire "Entrez votre age"
+Lire age 
+Si (sexe = "homme" ET age >20) OU 
+    (sexe ="femme" ET (age >= 18 ET age < 35) ) ALORS 
+    Ecrire "Veuillez payer vos impôts"
+Sinon
+    Ecrire "Merci"
+FinSi 
+Fin
+
+cf correction pour v2
